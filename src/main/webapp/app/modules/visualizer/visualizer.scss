@@ -1,0 +1,81 @@
+#chart-container {
+  z-index: 999;
+  overflow: auto;
+  opacity: 0.95;
+}
+
+#stats-panel {
+  opacity: 0.95;
+  font-size: 0.9rem;
+}
+
+.bottom-panel-group {
+  z-index: 999;
+  position: absolute;
+  bottom: 10px;
+  right: 470px;
+}
+
+#query-info-panel {
+  width: 220px;
+  opacity: 0.95;
+  font-size: 0.5rem;
+}
+
+#query-info-panel.expanded {
+  width: 600px;
+}
+
+.field-stats.ui.statistics .statistic > .value {
+  font-size: 0.9rem !important;
+}
+
+.field-stats.ui.statistics .statistic > .label {
+  font-size: 0.7rem !important;
+}
+
+.query-stats.ui.statistics .statistic > .value {
+  font-size: 0.9rem !important;
+}
+
+.query-stats.ui.statistics .statistic > .label {
+  font-size: 0.7rem !important;
+}
+
+/* Multiple progress bar */
+/* Multiple */
+.ui.multiple.progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+
+  .bar {
+    border-radius: 0rem;
+  }
+
+  .label {
+    font-size: 0.85rem;
+  }
+}
+
+@import 'https://code.highcharts.com/css/stocktools/gui.css';
+@import 'https://code.highcharts.com/css/annotations/popup.css';
+
+.highcharts-stocktools-wrapper.highcharts-bindings-wrapper.highcharts-bindings-container {
+  position: relative;
+}
+
+.highcharts-menu-wrapper {
+  position: inherit;
+}
+
+.chartContainer {
+  // display: flex;
+}
+
+.linear-prog-hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}

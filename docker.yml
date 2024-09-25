@@ -1,0 +1,9 @@
+version: '3'
+name: 'more'
+services:
+  visual:
+    image: morevis:latest
+    ports:
+      - '8090:8090'
+    volumes:
+      - C:/opt:/opt

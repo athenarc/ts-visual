@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "application.toolPort",
+      "type": "java.lang.String",
+      "description": "Description for application.toolPort."
+    }
+  ]
+}
