@@ -1,7 +1,7 @@
 ## Building module
 You will need Java 11 to build the module.
 
-Navigate to the [Min Max Cache Repository]([https://github.com/athenarc/MinMaxCache/tree/main]) clone and install the java package:
+Navigate to the [Min Max Cache Repository](https://github.com/athenarc/MinMaxCache/tree/main) clone and install the java package:
 
 ```
 ./mvn clean install
@@ -13,7 +13,7 @@ git clone https://github.com/athenarc/ts-visual.git
 
 ```
 Before installing you will need to configure it.
-Download the [workspace folder]([https://imisathena-my.sharepoint.com/:f:/g/personal/bstam_athenarc_gr/El0u9Yk5XRRDnnRJkvK-OfMBNNv5yGefoEQVFy0cBylCoA?e=oMtgFz]) and place it somewhere in your computer.
+Download the [workspace folder](https://imisathena-my.sharepoint.com/:f:/g/personal/bstam_athenarc_gr/El0u9Yk5XRRDnnRJkvK-OfMBNNv5yGefoEQVFy0cBylCoA?e=oMtgFz) and place it somewhere in your computer.
 
 Then move into src/main/resources/config/application.yml, and change the "/opt/more-workspace" path to the absolute path of the folder in your computer.
 
