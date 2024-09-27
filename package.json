@@ -146,6 +146,9 @@
   "engines": {
     "node": ">=12.16.1"
   },
+  "overrides": {
+    "@types/react": "^17.0.50"
+  },
   "scripts": {
     "prettier:format": "prettier --write \"{,src/**/}*.{md,json,ts,tsx,css,scss,yml}\"",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",

@@ -1,6 +1,5 @@
 node/*
 node_modules/*
-webpack/*
 target/*
 package-lock.json
 **DS_Store**
