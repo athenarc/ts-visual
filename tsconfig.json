@@ -18,7 +18,8 @@
     "checkJs": false,
     "baseUrl": "./",
     "paths": {
-      "app/*": ["src/main/webapp/app/*"]
+      "app/*": ["src/main/webapp/app/*"],
+      "react": [ "./node_modules/@types/react" ]
     },
     "importHelpers": true,
     "esModuleInterop": true,
